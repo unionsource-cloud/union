@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>InsightForm - Interview Questionnaire</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f7f8;
+      color: #333;
+      padding: 40px;
+    }
+    .container {
+      max-width: 600px;
+      margin: auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      text-align: center;
+      color: #2a7ae2;
+    }
+    p {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button {
+      margin-top: 25px;
+      width: 100%;
+      background: #2a7ae2;
+      color: #fff;
+      padding: 12px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #1e5bbf;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>InsightForm</h1>
+    <p>Please fill out the form below to complete your interview questionnaire.</p>
+    <form>
+      <label for="name">Full Name</label>
+      <input type="text" id="name" placeholder="Enter your full name">
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" placeholder="Enter your email">
+
+      <label for="background">Tell us about your background</label>
+      <textarea id="background" rows="4" placeholder="Write a brief overview..."></textarea>
+
+      <label for="experience">What experience do you have related to this role?</label>
+      <textarea id="experience" rows="4" placeholder="Describe your past experience..."></textarea>
+
+      <label for="goals">What are your personal/professional goals?</label>
+      <textarea id="goals" rows="4" placeholder="What do you want to achieve?"></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
